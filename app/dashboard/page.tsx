@@ -15,22 +15,27 @@ const APPLICATION_TEMPLATE = `Subject: Application for Software Engineer Role
 
 Dear [Hiring Manager's Name],
 
-I'm Ankit Raj, a software engineer with a proven track record of building AI-powered platforms used by 40K+ users. My expertise includes Next.js, Node.js, TypeScript, Redis, AWS, and Kubernetes.
+I’m Harcharanpreet Singh, a software engineer currently working at Amdocs and previously a founding engineer at an early-stage startup.
 
-Key Projects:
-• SuperThumbnail (10K+ users) – AI-driven YouTube thumbnails
-• SkillsetMaster (30K+ users) – Scalable e-learning platform
-• KidSafe LexiGuard (3,500+ users) – AI-powered content moderation
-• SDE Intern at Kirat's Technologies – Built real-time trading APIs, LinkedIn automation & metaverse backend
+I specialize in building AI-powered internal tools and production backend systems end-to-end from architecture to deployment.
 
-I'd love to bring my experience in AI, scalable systems, and cloud infrastructure to [Company Name]. Can we schedule a quick chat?
+Recent work:
+• Built TechMate AI (Teams automation) using LangChain + RAG, cutting IT response time by 30%
+• Integrated real-time workflows via Power Automate, reducing manual intervention by 40%
+• Built an Atlassian Jira plugin as a founding engineer, shipped MVP in <10 weeks, reducing ops cost by 20–30%
+• Experience with Java/Spring Boot systems for large telecom clients (Telstra)
 
-Best regards,
-Ankit Raj
-+917079574952
-LinkedIn: https://www.linkedin.com/in/ankit1478
-GitHub: https://github.com/Ankit1478
-Resume: https://drive.google.com/file/d/1mz67_CUBiKYMbVacm2287aafdMjujKr-/view?usp=sharing`;
+Tech I work with:
+React, Next.js, Node.js, TypeScript, Java, LangChain, Redis, MongoDB, Postgres, Docker, Kubernetes, AWS
+
+My experience has been in fast-moving, early-stage environments that value ownership and close collaboration. Happy to connect if this aligns with what you’re building.
+
+Best,
+Harcharanpreet Singh
+📞 +91-6283343351
+LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
+GitHub: https://github.com/singhHarcharan/
+Resume: https://drive.google.com/file/d/1NN_YltmekSxLiP-WaCiabYQ0zi0UC6NK/view`;
 
 export default function Dashboard() {
   const { data: session, status } = useSession();
