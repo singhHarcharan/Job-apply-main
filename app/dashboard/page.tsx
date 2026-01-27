@@ -2,7 +2,7 @@
 
 import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { sendEmail, getEmailStats } from "@/app/utils/email-service";
 import {
   saveCompanies,
@@ -208,19 +208,16 @@ export default function Dashboard() {
     setCompanies((prev) => prev.filter((c) => c.id !== companyId));
   };
 
-  const fetchEmailStats = useCallback(async () => {
-    if (!session?.accessToken) return;
-
-    try {
-      setIsStatsLoading(true);
-      const emailStats = await getEmailStats();
-      console.log(emailStats);
-    } catch (error) {
-      console.error("Error fetching email stats:", error);
-    } finally {
-      setIsStatsLoading(false);
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.push("/signin");
     }
-  }, [session?.accessToken]);
+
+    // Fetch email stats when session is available
+    if (session?.accessToken) {
+      fetchEmailStats();
+    }
+  }, [status, router, session]);
 
   // Load companies from storage on component mount
   useEffect(() => {
@@ -234,6 +231,21 @@ export default function Dashboard() {
   useEffect(() => {
     saveCompanies(companies);
   }, [companies]);
+
+  const fetchEmailStats = async () => {
+    if (!session?.accessToken) return;
+
+    try {
+      setIsStatsLoading(true);
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const emailStats = await getEmailStats();
+     console.log(emailStats);
+    } catch (error) {
+      console.error("Error fetching email stats:", error);
+    } finally {
+      setIsStatsLoading(false);
+    }
+  };
 
   const handleSendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
