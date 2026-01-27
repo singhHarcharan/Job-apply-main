@@ -499,14 +499,14 @@ export default function Dashboard() {
                     <div className="flex items-center space-x-2">
                       <button
                         onClick={() => handlePreviewEmail(company.id)}
-                        className="rounded-md bg-primary px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover"
+                        className="cursor-pointer rounded-md bg-primary px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover"
                       >
                         Preview
                       </button>
                       <button
                         onClick={() => handleSendToCompany(company.id)}
                         disabled={isSending && selectedCompanyId === company.id || company.status === "sent"}
-                        className={`rounded-md px-3 py-1.5 text-sm font-semibold shadow-sm ${
+                        className={`cursor-pointer rounded-md px-3 py-1.5 text-sm font-semibold shadow-sm ${
                           company.status === "sent" 
                             ? "bg-green-500 text-white cursor-not-allowed opacity-70" 
                             : "bg-primary text-white hover:bg-primary-hover disabled:opacity-50"
@@ -520,7 +520,7 @@ export default function Dashboard() {
                       </button>
                       <button
                         onClick={() => handleRemoveCompany(company.id)}
-                        className="rounded-md bg-background px-3 py-1.5 text-sm font-semibold text-foreground shadow-sm hover:bg-accent/10"
+                        className="cursor-pointer rounded-md bg-background px-3 py-1.5 text-sm font-semibold text-foreground shadow-sm hover:bg-accent/10"
                       >
                         Remove
                       </button>
@@ -584,26 +584,6 @@ export default function Dashboard() {
                     }
                     className="mt-1 block w-full rounded-md border border-accent/20 bg-background px-3 py-2 text-foreground shadow-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                     required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="url"
-                    className="block text-sm font-medium text-foreground/80"
-                  >
-                    Website URL
-                  </label>
-                  <input
-                    type="url"
-                    id="url"
-                    value={newCompany.url}
-                    onChange={(e) =>
-                      setNewCompany((prev) => ({
-                        ...prev,
-                        url: e.target.value,
-                      }))
-                    }
-                    className="mt-1 block w-full rounded-md border border-accent/20 bg-background px-3 py-2 text-foreground shadow-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                   />
                 </div>
                 <div>
