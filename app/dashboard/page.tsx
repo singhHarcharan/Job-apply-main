@@ -456,7 +456,7 @@ export default function Dashboard() {
             <div className="flex items-center">
               <button
                 onClick={() => signOut()}
-                className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                className="cursor-pointer rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 Sign out
               </button>
@@ -536,8 +536,8 @@ export default function Dashboard() {
             </div>
           </div>
 
-          {/* Add Company Form */}
-          <div className="col-span-1">
+          {/* Add Company Form - Sticky Right Column */}
+          <div className="col-span-1 sticky top-4 h-[calc(100vh-2rem)] overflow-y-auto">
             <div className="rounded-lg border border-accent/20 bg-background/50 backdrop-blur-sm p-6">
               <h2 className="text-lg font-semibold text-foreground mb-4">
                 Add Company
@@ -613,7 +613,7 @@ export default function Dashboard() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full rounded-md bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="cursor-pointer w-full rounded-md bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 >
                   Add Company
                 </button>
