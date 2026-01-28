@@ -35,6 +35,7 @@ Harcharanpreet Singh
 📞 +91-6283343351
 LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
 GitHub: https://github.com/singhHarcharan/
+Portfolio: https://harcharan.vercel.app/
 Resume: https://drive.google.com/file/d/1NN_YltmekSxLiP-WaCiabYQ0zi0UC6NK/view`;
 
 export default function Dashboard() {
