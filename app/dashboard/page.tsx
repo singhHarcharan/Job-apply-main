@@ -473,9 +473,14 @@ export default function Dashboard() {
           {/* Company List */}
           <div className="col-span-1 lg:col-span-2">
             <div className="rounded-lg border border-accent/20 bg-background/50 backdrop-blur-sm p-6">
-              <h2 className="text-lg font-semibold text-foreground mb-4">
-                Companies
-              </h2>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold text-foreground">
+                  People
+                </h2>
+                <span className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                  {companies.length} {companies.length === 1 ? 'Person' : 'People'}
+                </span>
+              </div>
               <div className="space-y-4">
                 {companies.map((company) => (
                   <div
@@ -507,7 +512,7 @@ export default function Dashboard() {
                         onClick={() => handlePreviewEmail(company.id)}
                         className="cursor-pointer rounded-md bg-primary px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover"
                       >
-                        Preview
+                        Preview 
                       </button>
                       <button
                         onClick={() => handleSendToCompany(company.id)}
