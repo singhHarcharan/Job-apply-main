@@ -45,18 +45,24 @@ Hi [Hiring Manager's Name],
 
 Hope you're doing well. I'm Harcharan, currently interviewing for a Frontend Developer role at [Company Name]. I've completed the online assessment and have the next interview rounds scheduled for tomorrow.
 
-I noticed you're part of the frontend team at [Company Name] and wanted to ask for a bit of guidance to prepare better. Specifically, I was hoping to understand:
-* Whether the interviews lean more towards DSA/problem-solving or frontend-focused discussions (React, UI, architecture, real-world scenarios)
-* The difficulty level typically expected (easy/medium/hard)
-* Anything the team especially values in frontend candidates
+I noticed you're part of the frontend team at [Company Name] and wanted to ask for a bit of guidance to prepare better. 
 
-I understand you may be busy, so even a brief pointer would be really appreciated. Thanks for taking the time to read this, and hope to work together in the future.
+Specifically, I was hoping to understand:
+
+• Whether the interviews lean more towards DSA/problem-solving or frontend-focused discussions (React, UI, architecture, real-world scenarios)
+• The difficulty level typically expected (easy/medium/hard)
+• Anything the team especially values in frontend candidates
+
+I understand you may be busy, so even a brief pointer would be really appreciated. 
+
+Thanks for taking the time to read this, and hope to work together in the future.
 
 Best regards,
 Harcharanpreet Singh
 Full-Stack Engineer
 📞 6283343351
-LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/`;
+LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
+`;
 
 export default function Dashboard() {
   const { data: session, status } = useSession();
