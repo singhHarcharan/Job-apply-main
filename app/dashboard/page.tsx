@@ -11,58 +11,58 @@ import {
 } from "@/app/utils/storage-service";
 
 // Template for job applications
-// const APPLICATION_TEMPLATE = `Subject: Application for Software Engineer Role
+const APPLICATION_TEMPLATE = `Subject: Application for Software Engineer Role
 
-// Dear [Hiring Manager's Name],
+Dear [Hiring Manager's Name],
 
-// I’m Harcharanpreet Singh, a software engineer currently working at Amdocs and previously a founding engineer at an early-stage startup.
+I’m Harcharanpreet Singh, a software engineer currently working at Amdocs and previously a founding engineer at an early-stage startup.
 
-// I specialize in building AI-powered internal tools and production backend systems end-to-end from architecture to deployment.
+I specialize in building AI-powered internal tools and production backend systems end-to-end from architecture to deployment.
 
-// Recent work:
-// • Built TechMate AI (Teams automation) using LangChain + RAG, cutting IT response time by 30%
-// • Integrated real-time workflows via Power Automate, reducing manual intervention by 40%
-// • Built an Atlassian Jira plugin as a founding engineer, shipped MVP in <10 weeks, reducing ops cost by 20–30%
-// • Experience with Java/Spring Boot systems for large telecom clients (Telstra)
+Recent work:
+• Built TechMate AI (Teams automation) using LangChain + RAG, cutting IT response time by 30%
+• Integrated real-time workflows via Power Automate, reducing manual intervention by 40%
+• Built an Atlassian Jira plugin as a founding engineer, shipped MVP in <10 weeks, reducing ops cost by 20–30%
+• Experience with Java/Spring Boot systems for large telecom clients (Telstra)
 
-// Tech I work with:
-// React, Next.js, Node.js, TypeScript, Java, LangChain, Redis, MongoDB, Postgres, Docker, Kubernetes, AWS
+Tech I work with:
+React, Next.js, Node.js, TypeScript, Java, LangChain, Redis, MongoDB, Postgres, Docker, Kubernetes, AWS
 
-// My experience has been in fast-moving, early-stage environments that value ownership and close collaboration. Happy to connect if this aligns with what you’re building.
+My experience has been in fast-moving, early-stage environments that value ownership and close collaboration. Happy to connect if this aligns with what you’re building.
 
-// Best,
-// Harcharanpreet Singh
-// 📞 +91-6283343351
-// LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
-// GitHub: https://github.com/singhHarcharan/
-// Portfolio: https://harcharan.vercel.app/
-// Resume: https://drive.google.com/file/d/1NN_YltmekSxLiP-WaCiabYQ0zi0UC6NK/view`;
+Best,
+Harcharanpreet Singh
+📞 +91-6283343351
+LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
+GitHub: https://github.com/singhHarcharan/
+Portfolio: https://harcharan.vercel.app/
+Resume: https://drive.google.com/file/d/1NN_YltmekSxLiP-WaCiabYQ0zi0UC6NK/view`;
 
 // Template for frontend interview guidance requests
-const APPLICATION_TEMPLATE = `Subject: Quick guidance on Frontend interview format at [Company Name]
+// const APPLICATION_TEMPLATE = `Subject: Quick guidance on Frontend interview format at [Company Name]
 
-Hi [Hiring Manager's Name],
+// Hi [Hiring Manager's Name],
 
-Hope you're doing well. I'm Harcharan, currently interviewing for a Frontend Developer role at [Company Name]. I've completed the online assessment and have the next interview rounds scheduled for tomorrow.
+// Hope you're doing well. I'm Harcharan, currently interviewing for a Frontend Developer role at [Company Name]. I've completed the online assessment and have the next interview rounds scheduled for tomorrow.
 
-I noticed you're part of the frontend team at [Company Name] and wanted to ask for a bit of guidance to prepare better. 
+// I noticed you're part of the frontend team at [Company Name] and wanted to ask for a bit of guidance to prepare better. 
 
-Specifically, I was hoping to understand:
+// Specifically, I was hoping to understand:
 
-• Whether the interviews lean more towards DSA/problem-solving or frontend-focused discussions (React, UI, architecture, real-world scenarios)
-• The difficulty level typically expected (easy/medium/hard)
-• Anything the team especially values in frontend candidates
+// • Whether the interviews lean more towards DSA/problem-solving or frontend-focused discussions (React, UI, architecture, real-world scenarios)
+// • The difficulty level typically expected (easy/medium/hard)
+// • Anything the team especially values in frontend candidates
 
-I understand you may be busy, so even a brief pointer would be really appreciated. 
+// I understand you may be busy, so even a brief pointer would be really appreciated. 
 
-Thanks for taking the time to read this, and hope to work together in the future.
+// Thanks for taking the time to read this, and hope to work together in the future.
 
-Best regards,
-Harcharanpreet Singh
-Full-Stack Engineer
-📞 6283343351
-LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
-`;
+// Best regards,
+// Harcharanpreet Singh
+// Full-Stack Engineer
+// 📞 6283343351
+// LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
+// `;
 
 export default function Dashboard() {
   const { data: session, status } = useSession();
