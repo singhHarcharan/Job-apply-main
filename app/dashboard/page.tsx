@@ -26,7 +26,7 @@ Recent work:
 • Experience with Java/Spring Boot systems for large telecom clients (Telstra)
 
 Tech I work with:
-React, Next.js, Node.js, TypeScript, Java, LangChain, Redis, MongoDB, Postgres, Docker, Kubernetes, AWS
+C++, Java, Python, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Prisma ORM, Hono, JWT, Node.js, Zod, Langchain, Redis, MongoDB, PostgreSQL, Firebase, Aiven, Neon, ChromaDB, Docker, Kubernetes, Git, Postman, Atlassian Jira, AWS.
 
 My experience has been in fast-moving, early-stage environments that value ownership and close collaboration. Happy to connect if this aligns with what you’re building.
 
