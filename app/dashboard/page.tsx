@@ -36,7 +36,7 @@ Harcharanpreet Singh
 LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
 GitHub: https://github.com/singhHarcharan/
 Portfolio: https://harcharan.vercel.app/
-Resume: https://drive.google.com/file/d/1XfMSfZ7tCU3J49SmdskG413-ZclkKaAi/view`;
+Resume: https://drive.google.com/file/d/12OSjkVRRdMvyJeLYB7KUV3zcchfAqINx/view`;
 
 // Template for frontend interview guidance requests
 // const APPLICATION_TEMPLATE = `Subject: Quick guidance on Frontend interview format at [Company Name]
