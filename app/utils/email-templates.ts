@@ -1,5 +1,5 @@
 // Template for frontend interview guidance requests
-export const APPLICATION_TEMPLATE = `Subject: Quick guidance on Frontend interview format at [Company Name]
+export const APPLICATION_TEMPLATE = `Subject: Quick guidance on First round interview at [Company Name]
 
 Hi [Hiring Manager's Name],
 
