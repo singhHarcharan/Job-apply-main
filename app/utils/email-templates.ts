@@ -49,4 +49,4 @@ Harcharanpreet Singh
 LinkedIn: https://www.linkedin.com/in/harcharanpreet-singh-9a245222a/
 GitHub: https://github.com/singhHarcharan/
 Portfolio: https://harcharan.vercel.app/
-Resume: https://drive.google.com/file/d/12OSjkVRRdMvyJeLYB7KUV3zcchfAqINx/view`;
+Resume: https://drive.google.com/file/d/1WRpSuKqvPbTBXMqgipdgyiBqR7ZMZJYv/view?usp=drive_link`;
