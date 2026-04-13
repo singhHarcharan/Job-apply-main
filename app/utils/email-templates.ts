@@ -28,7 +28,9 @@ export const APPLICATION_TEMPLATE = `Subject: Application for Software Engineer 
 
 Dear [Hiring Manager's Name],
 
-I'm Harcharanpreet Singh, a software engineer currently working at Amdocs and previously a founding engineer at an early-stage startup.
+rephrase this line or may be fix grammatical error
+
+I'm Harcharanpreet Singh, a software engineer currently working at Alyne as AI Engineer and previously a Software Engineer at Amdocs and Founding Engineer at an early-stage startup.
 
 I specialize in building AI-powered internal tools and production backend systems end-to-end from architecture to deployment.
 
